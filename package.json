@@ -4,7 +4,6 @@
   "author": "alxvbs",
   "devDependencies": {
     "autoprefixer-stylus": "^0.9.4",
-    "bootstrap": "^3.3.7",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-connect": "^5.0.0",

@@ -34,13 +34,6 @@ gulp.task('images', function() {
 		.pipe(connect.reload());
 });
 
-gulp.task('fonts', function() {
-	return gulp.src('./src/fonts/*/**')
-		.on('error', console.log)
-		.pipe(gulp.dest('./public/fonts/'))
-		.pipe(connect.reload());
-});
-
 gulp.task('connect', function() {
 	connect.server({
 		name: 'Mauris Test Project',
@@ -56,7 +49,7 @@ gulp.task('clean', function () {
 });
 
 gulp.task('build', ['clean'], function() {
-	gulp.run('pug', 'stylus', 'images', 'fonts');
+	gulp.run('pug', 'stylus', 'images');
 });
 
 gulp.task('watch', function() {
