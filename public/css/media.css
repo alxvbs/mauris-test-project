@@ -1,0 +1,368 @@
+@media screen and (max-width: 1875px) {
+  .line-1 {
+    left: 27px;
+  }
+
+  .line-2 {
+    left: 77px;
+  }
+
+  .line-3 {
+    left: 125px;
+  }
+}
+
+@media screen and (max-width: 1850px) {
+  .line-2 {
+    left: 76px;
+  }
+
+  .line-3 {
+    left: 124px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .line-2 {
+    left: 74px;
+  }
+
+  .line-3 {
+    left: 120px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .line-2 {
+    left: 73px;
+  }
+
+  .line-3 {
+    left: 118px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .line-2 {
+    left: 67px;
+  }
+
+  .line-3 {
+    left: 107px;
+  }
+
+  .clock-icon,
+  .tag-icon {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .line-1 {
+    left: 25px;
+  }
+
+  .line-2 {
+    left: 64px;
+  }
+
+  .line-3 {
+    left: 101px;
+  }
+
+  .clock-icon,
+  .tag-icon {
+    margin-left: 18px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .line-2 {
+    left: 61px;
+  }
+
+  .line-3 {
+    left: 98px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .col-1-1 {
+    width: 38.98%;
+  }
+
+  .col-1-2 {
+    width: 34.86%;
+  }
+
+  .col-1-3 {
+    width: 26.16%;
+  }
+
+  .line-2 {
+    left: 63px;
+  }
+
+  .line-3 {
+    left: 102px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .col-1-1 {
+    width: 36.98%;
+  }
+
+  .col-1-2 {
+    width: 32.86%;
+  }
+
+  .col-1-3 {
+    width: 30.16%;
+  }
+
+  .line-2 {
+    left: 66px;
+  }
+
+  .line-3 {
+    left: 107px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .line-2 {
+    left: 62px;
+  }
+
+  .line-3 {
+    left: 98px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .line-1 {
+    left: 23px;
+  }
+
+  .line-2 {
+    left: 59px;
+  }
+
+  .line-3 {
+    left: 93px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .col-1-1 {
+    width: 34.98%;
+  }
+
+  .col-1-2 {
+    width: 30.86%;
+  }
+
+  .col-1-3 {
+    width: 34.16%;
+  }
+
+  .line-2 {
+    left: 60px;
+  }
+
+  .line-3 {
+    left: 95px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .line-2 {
+    left: 58px;
+  }
+
+  .line-3 {
+    left: 91px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 78.26%;
+  }
+
+  .col-1-1 {
+    width: 39.16%;
+  }
+
+  .col-1-2 {
+    width: 32.27%;
+  }
+
+  .col-1-3 {
+    width: 28.57%;
+  }
+
+  .col-2-1 {
+    width: 21.85%;
+  }
+
+  .col-2-2 {
+    width: 54.79%;
+  }
+
+  .col-2-3 {
+    width: 23.36%;
+  }
+
+  .line-1 {
+    left: 27px;
+  }
+
+  .line-2 {
+    left: 76px;
+  }
+
+  .line-3 {
+    left: 124px;
+  }
+
+  .clock-icon,
+  .tag-icon {
+    margin-left: 23px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .col-1-1 {
+    width: 37.16%;
+  }
+
+  .col-1-2 {
+    width: 30.27%;
+  }
+
+  .col-1-3 {
+    width: 32.57%;
+  }
+
+  .line-1 {
+    left: 28px;
+  }
+
+  .line-2 {
+    left: 75px;
+  }
+
+  .line-3 {
+    left: 122px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .line-1 {
+    left: 25px;
+  }
+
+  .line-2 {
+    left: 68px;
+  }
+
+  .line-3 {
+    left: 111px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .col-1-1 {
+    width: 35.83%;
+  }
+
+  .col-1-2 {
+    width: 30.28%;
+  }
+
+  .col-1-3 {
+    width: 33.88%;
+  }
+
+  .col-2-1 {
+    width: 22.08%;
+  }
+
+  .col-2-2 {
+    width: 54.37%;
+  }
+
+  .col-2-3 {
+    width: 23.54%;
+  }
+
+  .line-1 {
+    left: 25px;
+  }
+
+  .line-2 {
+    left: 67px;
+  }
+
+  .line-3 {
+    left: 107px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper {
+    width: 88.75%;
+  }
+
+  .col-1-1 {
+    width: 33.45%;
+  }
+
+  .col-1-2 {
+    width: 24.3%;
+  }
+
+  .col-1-3 {
+    width: 42.25%;
+  }
+
+  .col-2-1 {
+    width: 32.75%;
+  }
+
+  .col-2-2 {
+    width: 33.1%;
+  }
+
+  .col-2-3 {
+    width: 34.15%;
+  }
+
+  .inner-hint-block:after {
+    bottom: -23px;
+    right: 25px;
+  }
+
+  .line-1 {
+    left: 24px;
+  }
+
+  .line-2 {
+    left: 56px;
+  }
+
+  .line-3 {
+    left: 88px;
+  }
+
+  .hint-item {
+    padding: 10px;
+  }
+
+  .clock-icon,
+  .tag-icon {
+    margin-left: 15px;
+  }
+}

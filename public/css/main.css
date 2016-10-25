@@ -1,0 +1,267 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background: url("../img/bg.png") repeat;
+  padding-top: 8.63%;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+line-height 1.42857143 {
+  margin: 0;
+}
+
+.wavy-line {
+  background: url("../img/wavy-line.png") repeat-x;
+  height: 5px;
+}
+
+.wrapper {
+  width: 41.98%;
+  min-height: 555px;
+  margin: 0 auto;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.wrapper-inner {
+  min-height: 549px;
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+  border-radius: 2px;
+  padding-top: 20px;
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #f5f5f5 3px, #fcfcfc 0%);
+  background: linear-gradient(to bottom, #e6e6e6 0%, #f5f5f5 3px, #fcfcfc 0%);
+}
+
+[class*='row-'] {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.row-1 {
+  min-height: 263px;
+}
+
+.col-1-1 {
+  width: 40.98%;
+  padding-left: 17px;
+  padding-right: 10px;
+}
+
+.col-1-2 {
+  width: 36.86%;
+  margin-bottom: 56px;
+}
+
+.col-1-3 {
+  width: 22.16%;
+  position: relative;
+  padding-left: 21px;
+}
+
+.col-2-1 {
+  width: 16.54%;
+  padding-left: 20px;
+  padding-right: 21px;
+}
+
+.col-2-2 {
+  max-width: 66.66%;
+}
+
+.col-2-3 {
+  width: 16.8%;
+  padding-left: 20px;
+  padding-right: 17px;
+}
+
+.button {
+  width: 100%;
+  min-height: 55px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: 2px solid #fdfdfd;
+  border-radius: 19px;
+  box-shadow: 2px 2px 4px #ebebeb, -2px 2px 4px #ebebeb;
+  background: -webkit-linear-gradient(bottom, #0176a7, #55b5fe);
+  background: linear-gradient(to top, #0176a7, #55b5fe);
+  outline: none;
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+.wavy-line-1 {
+  margin: 24px 2px 25px 2px;
+}
+
+.wavy-line-2 {
+  margin: 29px 2px 120px 2px;
+}
+
+.text-block {
+  width: 94%;
+  padding-left: 8px;
+}
+
+.text-item {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: justify;
+}
+
+.outer-hint-block {
+  position: relative;
+  max-width: 295px;
+  height: 100%;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: 1px 2px #ededed, -1px 2px #ededed;
+}
+
+.inner-hint-block {
+  height: 100%;
+  border: 1px dashed #d4dfec;
+  border-radius: 14px;
+}
+
+.inner-hint-block:after {
+  position: absolute;
+  content: '';
+  bottom: -24px;
+  right: 48px;
+  width: 30px;
+  height: 24px;
+  background-image: url("../img/hint.png");
+}
+
+.hint-item {
+  width: 100%;
+  padding: 26px;
+  text-align: center;
+}
+
+.title {
+  color: #dd56a7;
+  font-size: 24px;
+}
+
+.title p {
+  margin: 0 0 10px;
+}
+
+.main-text {
+  color: #666;
+  font-size: 12px;
+}
+
+.main-text p {
+  margin: 0 0 10px;
+}
+
+.line-1 {
+  position: absolute;
+  width: 14px;
+  height: 99px;
+  top: -99px;
+  left: 29px;
+  background-color: #ffd2e9;
+  border: 4px solid #ffabd6;
+  border-radius: 6px;
+  box-shadow: 0 0 0 2px #fff, 0 0 3px 3px #dbdbdb;
+}
+
+.line-2 {
+  position: absolute;
+  width: 14px;
+  height: 29px;
+  top: -29px;
+  left: 79px;
+  background-color: #9ed3f9;
+  border: 4px solid #4badf3;
+  border-radius: 6px;
+  box-shadow: 0 0 0 2px #fff, 0 0 3px 3px #dbdbdb;
+}
+
+.line-3 {
+  position: absolute;
+  width: 14px;
+  height: 59px;
+  top: -59px;
+  left: 129px;
+  background-color: #cad4d9;
+  border: 4px solid #9dafb8;
+  border-radius: 6px;
+  box-shadow: 0 0 0 2px #fff, 0 0 3px 3px #dbdbdb;
+}
+
+.icons {
+  margin-top: 17px;
+  font-size: 0;
+  max-height: 27px;
+}
+
+.heart-icon {
+  display: inline-block;
+  width: 18.62%;
+  height: auto;
+}
+
+.clock-icon {
+  width: 16.69%;
+  height: auto;
+  margin-left: 23px;
+}
+
+.tag-icon {
+  width: 17.33%;
+  height: auto;
+  margin-left: 23px;
+}
+
+.wavy-line-3 {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.barcode-block img {
+  width: 100%;
+  height: auto;
+}
+
+.text-block-2 {
+  width: 100%;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 12px;
+  text-align: justify;
+  text-indent: 15px;
+  line-height: 14px;
+}
+
+.wavy-line-4 {
+  margin: 27px 0 25px 0;
+}
+
+.qr-block img {
+  width: 100%;
+  height: auto;
+}
