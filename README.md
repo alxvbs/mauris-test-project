@@ -1,6 +1,6 @@
 # Mauris Test Project
 
-* 'git clone https://github.com/alxvbs/mauris-test-project.git'
+* git clone https://github.com/alxvbs/mauris-test-project.git
 
 ## Open project
 
@@ -8,8 +8,8 @@
 
 ## Install project
 
-* 'npm i -g gulp'
-* 'cd ...'
-* 'npm i'
-* 'gulp' or 'guild build'
-* open 'http://localhost:8000' or open '../public/index.html'
+* npm i -g gulp
+* cd ...
+* npm i
+* gulp
+* open 'http://localhost:8000'
