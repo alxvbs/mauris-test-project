@@ -57,7 +57,6 @@ gulp.task('watch', function() {
 	gulp.watch(['src/tmpl/*.pug'], ['pug']);
 	gulp.watch(['src/stylus/*.styl'], ['stylus']);
 	gulp.watch(['src/img/*'], ['images']);
-	gulp.watch(['src/fonts/*/**'], ['fonts']);
 });
 
 gulp.task('default', ['connect', 'watch']);
