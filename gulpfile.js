@@ -3,6 +3,7 @@ var gulp = require('gulp'),
 	stylus = require('gulp-stylus'),
 	autoprefixer = require('autoprefixer-stylus'),
 	myth = require('gulp-myth'),
+	cleanCSS = require('gulp-clean-css'),
 	imagemin = require('gulp-imagemin'),
 	clean = require('gulp-clean'),
 	connect = require('gulp-connect');
@@ -21,6 +22,7 @@ gulp.task('stylus', function() {
 			use: [autoprefixer('last 2 versions')]
 		}))
 		.pipe(myth())
+		.pipe(cleanCSS({compatibility: 'ie8'}))
 		.on('error', console.log)
 		.pipe(gulp.dest('./public/css/'))
 		.pipe(connect.reload());
@@ -36,7 +38,7 @@ gulp.task('images', function() {
 
 gulp.task('connect', function() {
 	connect.server({
-		name: 'Mauris Test Project',
+		name: 'Test Project',
 		root: 'public',
 		port: 8000,
 		livereload: true

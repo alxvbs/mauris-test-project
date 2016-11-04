@@ -1,6 +1,6 @@
-# Mauris Test Project
+# Test Project
 
-* git clone https://github.com/alxvbs/mauris-test-project.git
+* git clone https://github.com/alxvbs/test-project-2.git
 
 ## Open project
 

@@ -1,11 +1,12 @@
 {
-  "name": "mauris-test-project",
+  "name": "test-project-2",
   "version": "1.0.0",
   "author": "alxvbs",
   "devDependencies": {
     "autoprefixer-stylus": "^0.9.4",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.13",
     "gulp-connect": "^5.0.0",
     "gulp-imagemin": "^3.0.2",
     "gulp-myth": "^1.1.0",
